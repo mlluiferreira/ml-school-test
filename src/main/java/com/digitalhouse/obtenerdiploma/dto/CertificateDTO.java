@@ -28,10 +28,6 @@ public class CertificateDTO extends StudentDTO {
     this.average = average;
   }
 
-  public StudentDTO getStudent() {
-    return this;
-  }
-
   public void setStudent(StudentDTO student) {
     this.name = student.name;
     this.subjects = student.subjects;

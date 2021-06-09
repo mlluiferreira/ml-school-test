@@ -20,7 +20,7 @@ public class CertificateServiceImplTest {
     private CertificateService certificateService;
 
     @Test
-    public void test_function_analyze_notes() {
+    public void should_return_student_average() {
         StudentDTO studentDTO = new StudentDTO();
         studentDTO.setName("testador");
         studentDTO.setSubjects(List.of(new SubjectDTO("Portugues", 7), new SubjectDTO("matematica", 8)));
