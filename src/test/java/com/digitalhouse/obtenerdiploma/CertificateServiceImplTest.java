@@ -19,20 +19,6 @@ public class CertificateServiceImplTest {
     @Autowired
     private CertificateService certificateService;
 
-    public void should_return_bad_request_when_send_student_without_name() throws Exception {
-//        StudentDTO studentDTO = new StudentDTO();
-//        studentDTO.setSubjects(List.of(new SubjectDTO("Matematica", 0), new SubjectDTO("Historia", 5)));
-//        byte[] payload = objectMapper.writeValueAsBytes(studentDTO);
-//
-//        mockMvc
-//                .perform(
-//                        post("/analyzeNotes")
-//                                .content(payload)
-//                                .contentType(MediaType.APPLICATION_JSON)
-//                                .accept(MediaType.APPLICATION_JSON)
-//                ).andExpect(MockMvcResultMatchers.status().isBadRequest());
-    }
-
     @Test
     public void test_function_analyze_notes() {
         StudentDTO studentDTO = new StudentDTO();
